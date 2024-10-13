@@ -1,0 +1,48 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.container {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #fe2b22;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.navbar-logo {
+  height: 40px; /* Adjust this value to match your desired navbar height */
+  width: auto;
+  object-fit: contain;
+}

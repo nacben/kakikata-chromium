@@ -1,0 +1,4 @@
+var CONSTANTS = Object.freeze({
+    DEFAULT_FONT_SIZE: 66,
+    DEFAULT_FONT_OPACITY: 40
+})
